@@ -1,0 +1,1416 @@
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+  }
+body{
+width:100%}
+
+  .arrow {
+
+      position: fixed;
+      right: 20px;
+      bottom: 80px;
+      color: #fff;
+      background-color: #02aef798;
+      padding: 5px;
+      border-radius: 20%;
+      box-shadow: 1px 1px 4px -2px #00000087;
+
+  }
+
+  .arrow i {
+      font-size: 20px;
+  }
+
+  .arrow:hover {
+      background-color: #fff;
+      color: #02aef798;
+  }
+
+  .header .information .spn1 {
+      color: rgb(12, 180, 192);
+      font-size: 25px;
+      text-transform: uppercase;
+      font-weight: 900;
+  }
+
+  .header .information .spn2 {
+      font-size: 13px;
+      color: #a2a2a2;
+      text-transform: uppercase;
+      font-weight: 900;
+  }
+
+  .information {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 30px 50px;
+  }
+
+  .information ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+  }
+
+
+  .information ul li {
+      list-style: none;
+      margin-left: 30px;
+      display: flex;
+
+
+  }
+
+  .text {
+      width: 200px;
+      margin-top: 20px;
+
+  }
+
+  .icon i {
+      color: rgb(12, 180, 192);
+  }
+
+
+
+  .text #p1 {
+      font-size: 17px;
+      text-transform: capitalize;
+      color: rgb(12, 180, 192);
+      font-weight: 500;
+
+
+  }
+
+  #p2 {
+      font-size: 13px;
+      color: #a2a2a2;
+      text-transform: uppercase;
+      font-weight: 800;
+  }
+
+
+  .information .icon {
+      padding-top: 20px;
+      padding-right: 10px;
+  }
+
+  .content {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      background-color: #a2a2a26e;
+  }
+
+  img {
+      height: 40px;
+      left: 30px;
+  }
+
+  .content ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+  }
+
+  .content #bt {
+      text-decoration: none;
+      color: #fff;
+      background-color: rgb(12, 180, 192);
+      padding: 35px;
+      text-transform: capitalize;
+      font-weight: 700;
+      font-size: 17px;
+      letter-spacing: 1.6px;
+      margin-left: 280px;
+      box-shadow: 0px 0px 3px 1px #00000021;
+      border-radius: 5px;
+  }
+
+  .content #bt:hover {
+      background-color: rgb(7, 153, 163);
+      transition: 0.5s;
+  }
+
+  .content li {
+      margin-left: 40px;
+  }
+
+  .content li a {
+      color: #292727ab;
+      text-decoration: none;
+      font-size: 17px;
+      text-transform: capitalize;
+  }
+
+  .content li a:hover {
+      color: rgb(12, 180, 192);
+      border-top: 2px solid rgb(12, 180, 192);
+      padding-top: 31.8px;
+  }
+
+  /* .content li a:checked {
+      transition: 0.5s;
+  } */
+
+  .content li a:active {
+
+      border-top: 2px solid rgb(12, 180, 192);
+      padding-top: 31.8px;
+  }
+
+  .main {
+      background-image: url("../images/dental-emergencies-in-bushey-scaled-2600x1000.webp");
+      width: 100%;
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 100px;
+      padding-bottom: 500px;
+  }
+
+  
+  .abs {
+
+      width: 600px;
+      margin-top: 100px;
+      margin-left: 50px;
+
+  }
+
+  .abs h4 {
+      text-transform: capitalize;
+      color: #fff;
+      font-size: 40px;
+      margin-bottom: 20px;
+      width: 600px;
+      font-weight: 600;
+      margin-bottom: 40px;
+  }
+
+  .abs p {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1.4px;
+      margin-bottom: 60px;
+      text-transform: capitalize;
+  }
+
+  .app i {
+      color: #fff;
+      margin-left: 20px;
+  }
+
+  .abs .app {
+      background-color: rgb(51, 168, 177);
+      text-decoration: none;
+      padding: 20px;
+      color: #fff;
+      border-radius: 5px;
+      text-transform: capitalize;
+      font-weight: 700;
+      box-shadow: 0px 0px 3px 4px #0000001c;
+
+  }
+
+  .abs .app:hover {
+      transition: 0.5s;
+      background-color: transparent;
+  }
+
+  
+  .a {
+      position: relative;
+  }
+
+  .ab {
+      position: absolute;
+      top: 180px;
+      left: 50px
+  }
+
+  .ab h4 {
+      text-transform: capitalize;
+      color: #fff;
+      font-size: 40px;
+      margin-bottom: 20px;
+      width: 400px;
+      font-weight: 600;
+  }
+
+  .ab p {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1.4px;
+      margin-bottom: 40px;
+      width: 500px;
+  }
+
+  .app {
+      background-color: rgb(51, 168, 177);
+      text-decoration: none;
+      padding: 20px;
+      color: #fff;
+      border-radius: 5px;
+      text-transform: capitalize;
+      font-weight: 700;
+      margin-left: 100px;
+
+  }
+
+  .app:hover {
+      background-color: rgb(7, 153, 163);
+
+  }
+
+  form {
+
+      background-color: rgba(34, 145, 189, 0.808);
+      width: fit-content;
+      padding: 50px;
+      padding-left: 200px;
+      border-radius: 5px;
+  }
+
+  .colums {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+  }
+
+  #head h5 {
+      color: #fff;
+      font-size: 15px;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      letter-spacing: 1.4px;
+  }
+
+  #head h1 {
+      color: #fff;
+      font-weight: 500;
+  }
+
+  .colum2 {
+      margin-left: 20px;
+      margin-right: 15px;
+  }
+
+  .colums label {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+  } 
+
+  .colums input {
+      border-color: transparent;
+      background-color: transparent;
+      border-bottom: 1px solid #2593d362;
+      padding: 6px;
+      margin-top: 8px;
+  }
+
+  .colums input:focus {
+      border-bottom: 1px solid #fff;
+      outline: transparent;
+      background-color: transparent;
+  }
+
+  span {
+      font-size: 15px;
+      margin-left: 5px;
+  }
+
+  .colums input::placeholder {
+      color: #24536e3d;
+      font-size: 15px;
+      text-transform: capitalize;
+  }
+
+  .date {
+      margin-top: 17px;
+  }
+
+  
+
+  .message {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-top: 30px;
+  }
+
+  textarea {
+      height: 75px;
+      width: 400px;
+      background-color: transparent;
+      margin-top: 10px;
+      margin-bottom: 25px;
+      border-color: #2593d3b6;
+
+  }
+
+  textarea::placeholder {
+      color: #24536e3d;
+      text-transform: capitalize;
+      padding: 20px;
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: 1px;
+  }
+
+  textarea:focus {
+      outline: transparent;
+      border-color: #fff;
+  }
+
+  /* form a {
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #063957b0;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px 150px;
+      margin-left: 30px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: -3px 4px 4px 0px #2593d3c4;
+      font-weight: 700;
+  } */
+  /* .input{
+    padding: 10px 100px;
+    border-color: transparent;
+    /* margin-bottom: auto; */
+   /* margin-left: 60px;
+    background-color: skyblue;
+    color: #fff;
+    border-radius: 5px;
+  } */
+  .input {
+    color: #000;
+    background-color: #00bcd4;
+    border-color: transparent;
+    margin: 50px;
+  }
+
+   .input:hover {
+      transition: 0.6s;
+      background-color: #063957b0;
+      color: #000;
+      cursor: pointer;
+  }
+
+  .two {
+      margin-top: 20px;
+      margin-left: 200px;
+  }
+
+  .appointment {
+      display: flex;
+      background-color: rgba(221, 221, 221, 0.178);
+  }
+
+  #info {
+      color: gray;
+      font-size: large;
+      border-color: transparent;
+      border-style: solid;
+      line-height: 25px;
+      width: 500px;
+      display: flex;
+      background-color: #fff;
+      margin-top: 13px;
+      border-radius: 5px;
+      padding: 10px;
+  }
+
+  #info:hover {
+      background-color: skyblue;
+      color: #fff;
+      transition: 0.6s;
+      transform: scale(1.1);
+  }
+
+  .paragraphs {
+      margin-left: 50px;
+  }
+
+  #info h2 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: 600;
+  }
+
+  .two span i {
+      padding-top: 20px;
+  }
+
+  .two h3 {
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      color: rgb(12, 180, 192);
+      font-weight: 900;
+  }
+
+  h4 {
+      margin-top: 10px;
+      font-size: 25px;
+      font-weight: bold;
+      color: rgba(22, 16, 16, 0.753);
+      margin-bottom: 30px;
+  }
+
+  .services {
+      background-color: rgba(221, 221, 221, 0.363);
+      margin-top: -10px;
+      padding: 0 50px;
+      padding-bottom: 150px;
+
+  }
+
+  .serv1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      margin: 30px 50px;
+  }
+
+
+  .serv1 .bx1,
+  .serv2 .bx1 {
+      padding: 30px;
+      margin-left: 0px;
+      padding-bottom: 50px;
+      border-radius: 5px;
+      width: 900px;
+      height: 400px;
+  }
+
+  .serv1 .bx1 p,
+  .serv2 .bx1 p {
+      font-size: 15px;
+      margin-top: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 25px;
+      text-transform: capitalize;
+  }
+
+  .serv1 h2,
+  .serv2 h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: -70px;
+  }
+
+  .serv1 div {
+      background-color: #fff;
+      margin-left: 10px;
+      padding: 5px;
+      margin: 20px;
+      text-align: center;
+      border-radius: 5px;
+  }
+
+  .serv2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 50px;
+      margin-top: -30px;
+  }
+
+  .serv2 div {
+      background-color: #fff;
+      text-align: center;
+      margin-left: 10px;
+      padding: 10px;
+      margin: 20px;
+  }
+
+  .bx1 img {
+      width: 200px;
+      height: 200px;
+      background-color: transparent;
+      margin: auto;
+      position: relative;
+      bottom: 50px;
+      left: -10px;
+  }
+
+  .serv1 .bx1:hover,
+  .serv2 .bx1:hover {
+      color: #fff;
+      background-color: #02aef79a;
+      box-shadow: 0px 0px 17px 4px #2a2a2b23;
+  }
+
+  .services h4 {
+      padding-top: 50px;
+      letter-spacing: 4.8px;
+      word-spacing: 2.5px;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: capitalize;
+      color: rgb(12, 180, 192);
+      text-align: center;
+  }
+
+  .services h1 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+      margin-top: -28px;
+      color: #000;
+      letter-spacing: 1.2px;
+      margin-bottom: 30px;
+      text-transform: capitalize;
+  }
+
+  .serv3 {
+      background-image: url(../images/dental_health_amid_covid_header.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      margin-top: -50px;
+      padding-bottom: 500px;
+  }
+
+  .b {
+      text-align: center;
+      padding-top: 50px;
+  }
+
+  .b h3 {
+      letter-spacing: 4.8px;
+      word-spacing: 2.5px;
+      font-size: 17px;
+      font-weight: 700;
+      text-transform: capitalize;
+      color: rgb(12, 180, 192);
+      padding-bottom: 50px;
+      text-shadow: -2px -2px 14px #0000008f;
+  }
+
+  .b h5 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      margin-top: -30px;
+      color: #fff;
+  }
+
+  .b p {
+      font-size: 17px;
+      letter-spacing: 1.1px;
+      color: #fff;
+      font-weight: 600;
+      padding: 0 280px;
+      text-shadow: 0px 0px 8px #00000045;
+  }
+
+  .bxs {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 40px;
+      padding: 0 200px;
+  }
+
+  .bxs .bxs3 {
+      border: 1px solid #02adf7;
+      width: 150px;
+      border-radius: 5px;
+      display: flex;
+      padding: 5px;
+  }
+
+  .bxs3 i {
+      font-size: 25px;
+      color: #00bcd4;
+      padding-top: 8px;
+      padding-right: 5px;
+      padding-left: 5px;
+  }
+
+  .bxs h4 {
+      color: #02adf7;
+  }
+
+  .bxs3 p {
+      color: #fff;
+      font-weight: 600;
+      padding-bottom: 8px;
+      text-transform: uppercase;
+      margin-left: -20px;
+  }
+
+  .docotors {
+      background-color: rgba(221, 221, 221, 0.37);
+      margin-bottom: 50px;
+  }
+
+  .heading1 h6 {
+      text-align: center;
+      font-size: 15px;
+      color: skyblue;
+      padding-top: 50px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+  }
+
+  .heading1 h4 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+      margin-top: 2px;
+      color: #000;
+      margin-top: 5px;
+      margin-bottom: 35px;
+      letter-spacing: 1.2px;
+  }
+
+  .flex1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 50px;
+      padding-bottom: 50px;
+  }
+
+  .fa-twitter {
+      color: #fff;
+      border: 1px slid transparent;
+      background-color: #00bcd4;
+      border-radius: 50%;
+      padding: 10px;
+
+  }
+
+  .fa-facebook-f {
+      color: #fff;
+      border: 1px slid transparent;
+      background-color: #00bcd4;
+      border-radius: 50%;
+      padding: 10px;
+  }
+
+  .fa-instagram {
+      color: #fff;
+      border: 1px slid transparent;
+      background-color: #00bcd4;
+      border-radius: 50%;
+      padding: 10px;
+  }
+
+  .ard1 {
+      overflow: hidden;
+      width: 400px;
+      position: relative;
+  }
+
+  .ard1:hover {
+      cursor: pointer;
+  }
+
+  .ard1:hover h2 {
+      padding-top: 20px;
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.514);
+  }
+
+  .ard1:hover p {
+      visibility: visible;
+      margin-top: -150px;
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.288);
+      text-align: center;
+      color: #fff;
+      padding: 10px;
+      font-size: 17px;
+      padding-top: 5px;
+      font-weight: 600;
+  }
+
+  .ard1:hover .social {
+      visibility: visible;
+      margin-top: 100px;
+  }
+
+  .fa-facebook-f {
+      color: #02adf7;
+      background-color: #fff;
+      font-size: 20px;
+      margin-left: 5px;
+  }
+
+  .fa-instagram {
+      color: darksalmon;
+      font-size: 20px;
+      background-color: #fff;
+      margin-left: 5px;
+  }
+
+  .fa-twitter {
+      color: #02adf7;
+      background-color: #fff;
+      font-size: 20px;
+      margin-left: 5px;
+  }
+
+  
+  .on .social i:hover {
+      background-color: transparent;
+      transition: 0.5s;
+      transform: scale(1.2);
+  }
+
+  .ard1:hover .on {
+      height: 300px;
+      position: absolute;
+      top: 150px;
+      visibility: visible;
+      background-color: #51839913;
+  }
+
+  .on h3 {
+      color: rgba(0, 0, 0, 0.719);
+      padding: 3px;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1.6px;
+  }
+
+  .ard1:hover h3 {
+      color: #02adf7;
+      text-shadow: 1px 1px 3px #2823238c;
+  }
+
+  .ard1:hover h3 {
+      visibility: visible;
+  }
+
+  .mg img {
+      width: 285px;
+      height: 400px;
+      border-radius: 7px;
+  }
+
+  .on {
+      text-align: center;
+      margin-left: 50px;
+      background-color: #494e4e28;
+      width: 245px;
+      position: absolute;
+      bottom: 2px;
+      right: 90px;
+      border-radius: 5px;
+      height: 56px;
+
+  }
+
+
+  .on h2 {
+      color: #fff;
+      margin-top: 15px;
+      font-size: 20px;
+  }
+
+  .on h3,
+  .on .social,
+  .on p {
+      visibility: hidden;
+  }
+
+  .on .social {
+      padding-top: 8px;
+  }
+
+  .bookappoint {
+      background-image: url("../images/dentists-dental-care.jpg");
+      background-position: f;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      padding: 80px 100px;
+      margin-top: -50px;
+      display: flex;
+  }
+
+  .bookappoint .txt {
+      color: #fff;
+      text-transform: uppercase;
+  }
+
+  .bookappoint .txt h1,
+  .bookappoint .txt h5 {
+      text-shadow: 2px -1px 4px #00bcd4;
+  }
+
+  .bookappoint a {
+      margin-left: 50px;
+      color: #02adf7;
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 1.1px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 11px -1px #00bcd46e;
+      text-decoration: none;
+  }
+
+  .bookappoint a:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.5s;
+      color: #fff;
+      background-color: #02adf7;
+  }
+
+  .customers {
+      background-color: #fff;
+  }
+
+  .flex2 {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 40px;
+
+  }
+
+  .heading h6 {
+      text-align: center;
+      font-size: 15px;
+      color: skyblue;
+      padding-top: 50px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+  }
+
+
+  .heading h4 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+      margin-top: 2px;
+      color: #000;
+      margin-bottom: 20px;
+      letter-spacing: 0.8px;
+  }
+
+  h2 {
+      font-size: 18px;
+      margin-bottom: 5px;
+  }
+
+  .card span i {
+      font-size: 30px;
+      color: #00bcd4;
+      margin-bottom: 20px;
+      margin-right: 5px;
+      background-color: #fff;
+      padding: 5px;
+      border-radius: 50px;
+      position: relative;
+      bottom: 50px;
+  }
+
+  .card #par {
+      font-size: 17px;
+      font-weight: 500;
+  }
+
+  .card {
+      padding: 30px 15px;
+      margin-left: 10px;
+      border-radius: 5px;
+      width: 25%;
+  }
+
+  .card:hover {
+      background-color: #02aef74f;
+      transition: 0.4s;
+      box-shadow: 2px 2px 3px -2px rgba(0, 0, 0, 0.315);
+      transform: scale(1.1);
+      color: #fff;
+  }
+
+  .card img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-top: 18px;
+  }
+
+  .card h5 {
+      font-size: 16px;
+      margin-left: 70px;
+      font-weight: 700;
+      margin-bottom: 5px;
+  }
+
+  .card h2 {
+      font-size: 12px;
+      color: #00bcd4;
+      margin-left: 70px;
+  }
+
+  .card .h {
+      margin-top: -50px;
+      margin-left: 20px;
+  }
+
+  .bx {
+      padding-top: 50px;
+      margin-left: -5px;
+  }
+
+  .circles {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .c1,
+  .c2,
+  .c3 {
+      margin-left: 10px;
+      background-color: rgba(0, 0, 0, 0.466);
+      width: 10px;
+      height: 10px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      animation-name: moving;
+      animation-duration: 0.9s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+  }
+
+  .c2 {
+      animation-delay: 0.3s;
+  }
+
+  .c3 {
+      animation-delay: 0.6s;
+  }
+
+  @keyframes moving {
+      to {
+          opacity: 0.2;
+      }
+  }
+
+  .blog {
+      background-color: #dddddd38;
+      margin-bottom: -10px;
+      padding: 0 80px;
+  }
+
+  .blog h4 {
+      padding-top: 50px;
+      letter-spacing: 4.8px;
+      word-spacing: 2.5px;
+      font-size: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: rgb(12, 180, 192);
+      text-align: center;
+  }
+
+  .blog h1 {
+      color: rgba(0, 0, 0, 0.664);
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+      margin-top: -25px;
+      color: #000;
+      letter-spacing: 0.8px;
+      margin-bottom: 80px;
+  }
+
+  .blog1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 100px;
+  }
+
+  .blg {
+      width: 800px;
+  }
+
+  .blg0 img,
+  .blg1 img,
+  .blg2 img {
+      width: 300px;
+      height: 300px;
+      margin-left: 30px;
+  }
+
+  .bl h2 {
+      text-transform: capitalize;
+      margin-left: 20px;
+      font-size: 17px;
+      font-weight: 700;
+      margin-top: 50px;
+      text-align: center;
+      color: rgb(12, 180, 192);
+  }
+
+  .bl p {
+      font-size: 17px;
+      margin-left: 20px;
+      margin-top: 15px;
+      text-align: center;
+      line-height: 25px;
+      color: rgba(0, 0, 0, 0.432);
+      padding: 0 10px;
+      padding-bottom: 20px;
+      text-transform: capitalize;
+
+  }
+
+  .bl {
+      margin-top: -30px;
+  }
+
+  .user {
+      margin-left: 30px;
+      margin-top: 10px;
+  }
+
+  .user i {
+      color: #00bcd4;
+  }
+
+  .user span {
+      text-transform: capitalize;
+  }
+
+  .blg1 {
+      background-color: #fff;
+      padding: 30px 20px;
+      width: 600px;
+  }
+
+  .blg0,
+  .blg2 {
+      padding: 30px 20px;
+      width: 600px;
+  }
+
+  .blg0 {
+      background-color: #fff;
+      margin-right: 10px;
+      margin-top: 80px;
+  }
+
+  .blg1 {
+      margin-bottom: 20px;
+      margin-right: 20px;
+      margin-left: 20px;
+  }
+
+  .blg2 {
+      background-color: #fff;
+      margin-left: 10px;
+      margin-bottom: 150px;
+  }
+
+  .blg {
+      margin-left: 25px;
+      padding: 50px;
+      border-radius: 5px;
+  }
+
+  .blog a {
+      text-transform: capitalize;
+      text-decoration: none;
+      color: rgb(12, 180, 192);
+      background-color: #fff;
+      padding: 10px 30px;
+      border-radius: 5px;
+      font-size: 25px;
+      box-shadow: 3px 1px 13px -11px black;
+      position: relative;
+      bottom: 50px;
+      left: 45%;
+  }
+
+  .blog a:hover {
+      background-color: rgb(12, 180, 192);
+      color: #fff;
+      transition: 0.5s ease-in;
+  }
+
+  .ourpricing {
+      background-color: #dddddd38;
+      padding-bottom: 100px;
+
+  }
+
+  .ourpricing h4 {
+      padding-top: 50px;
+      letter-spacing: 4.8px;
+      word-spacing: 2.5px;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: capitalize;
+      color: rgb(12, 180, 192);
+      text-align: center;
+  }
+
+  .ourpricing h1 {
+
+      color: rgba(0, 0, 0, 0.664);
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+      margin-top: -20px;
+      color: #000;
+      letter-spacing: 0.8px;
+  }
+
+  .ourpricing .box {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0 50px;
+      margin-top: 50px;
+  }
+
+  .box h2 {
+      text-transform: capitalize;
+      font-size: 15px;
+      color: #000;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      margin-left: 50px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+
+  }
+
+  .box .contanier {
+      border-radius: 5px;
+      padding: 20px;
+      margin: 18px;
+      border: 1px solid #00000011;
+      box-shadow: 1px 4px 20px 5px #44434300;
+
+  }
+
+  .box .contanier:hover {
+      background-color: #fff;
+      box-shadow: 1px 1px 15px 3px #645f5f17;
+      border: transparent;
+  }
+
+  .contanier i {
+      color: #02aef78a;
+      font-weight: 600;
+      margin-right: 5px;
+  }
+
+  .box p {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0006;
+      padding: 11px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      text-transform: capitalize;
+
+  }
+
+  .box span.dollar {
+      font-size: 31px;
+      font-weight: 600;
+      padding-right: 5px;
+      margin-left: 20px;
+      color: #02aef750;
+  }
+
+  .box span.number {
+      font-size: 25px;
+      font-weight: 900;
+      color: #02aef750;
+
+  }
+
+  .box i {
+      padding-right: 5px;
+  }
+
+  .box .a {
+
+      background-color: rgb(12, 180, 192);
+      padding: 15px 20px;
+      border-radius: 3px;
+      font-size: 15px;
+      text-transform: capitalize;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      border-color: transparent;
+      margin-left: 30px;
+
+  }
+
+  .box a {
+      text-decoration: none;
+      color: #fff;
+      margin-top: 500px;
+  }
+
+  .box .a:hover {
+      box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.164);
+      cursor: pointer;
+      background-color: #000;
+      transition: 0.5s ease-in;
+  }
+
+  .contact {
+      padding-bottom: 50px;
+      background-color: #dddddd38;
+      padding-top: 50px;
+
+  }
+
+  .cnt {
+      margin-top: -100px;
+      margin-bottom: 50px;
+  }
+
+  .contact h4 {
+      padding-top: 50px;
+      letter-spacing: 4.8px;
+      word-spacing: 2.5px;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: capitalize;
+      color: rgb(12, 180, 192);
+      text-align: center;
+  }
+
+  .contact h1 {
+      color: rgba(0, 0, 0, 0.664);
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+      margin-top: -20px;
+      color: #000;
+      letter-spacing: 0.8px;
+      text-transform: capitalize;
+
+  }
+
+  .contact .us {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .us .us1,
+  .us .us2 {
+      margin-left: 20px;
+      padding: 40px;
+      text-align: center;
+      background-color: #fff;
+      margin-top: 50px;
+      width: 300px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 20px -11px #0000009e;
+
+  }
+
+  .us .us1:hover,
+  .us .us2:hover {
+      cursor: pointer;
+      box-shadow: 0px 0px 0px 0px transparent;
+      transition: 0.5s;
+
+
+  }
+
+  .us1 div,
+  .us2 div {
+      margin-bottom: 50px;
+  }
+
+  .us1 span,
+  .us2 span {
+      font-size: 17px;
+      font-weight: 700;
+  }
+
+  .us2 span a {
+      text-decoration: none;
+
+      color: #000;
+  }
+
+  .us2 span a:hover {
+      color: #02adf7;
+  }
+
+  .us i {
+      background-color: #00bbd48c;
+      color: #fff;
+      padding: 17px;
+      border-radius: 50%;
+      box-shadow: 1px 1px 18px -9px black;
+  }
+
+  .us i:hover {
+      background-color: #fff;
+      color: #00bbd48c;
+      box-shadow: 1px 1px 18px -9px black;
+      transition: 0.5s;
+
+
+  }
+
+  .footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      letter-spacing: .8px;
+      text-transform: capitalize;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(358deg, #000000c2, #00bcd485);
+  }
+
+  .footer a {
+      text-transform: capitalize;
+      text-decoration: none;
+      color: #00bcd4;
+      margin-left: 6px;
+      font-weight: 700;
+  }
+
+  .footer a:hover {
+      color: #fff;
+  }
+
+  .footer i {
+      margin-left: 6px;
+  }
